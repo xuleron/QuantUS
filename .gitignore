@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# secrets and live runtime state (state.json, logs, session records)
+.env
+runtime/

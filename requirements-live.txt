@@ -1,0 +1,13 @@
+# runtime dependencies of the live trader (Docker image)
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14          # only for `replay` / `signal --asof` (repository dataset)
+pyyaml>=6.0
+requests>=2.31
+yfinance>=0.2.40
+alpaca-py>=0.30
+ib_async>=1.0
+exchange_calendars>=4.5
+tzdata>=2024.1
+pyotp>=2.8           # TOTP support for IBKR 2FA login
+# Note: IB Gateway runs in container, see docker/Dockerfile for setup

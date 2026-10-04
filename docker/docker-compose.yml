@@ -1,0 +1,38 @@
+# Docker Compose for xQQQ trading system
+# Used through docker/alpaca.sh and docker/ibkr.sh, which set VT_TAG / VT_BROKER
+# IBKR mode: single container with integrated IB Gateway and Python trader via supervisor
+# Alpaca mode: single container with Python trader only
+name: xqqq-vt25-${VT_TAG:-alpaca}
+
+services:
+  # Trader container
+  # IBKR mode: runs both IB Gateway (Java) and Python trader via supervisor
+  # Alpaca mode: runs Python trader only
+  trader:
+    image: xqqq-vt25:${VT_TAG:-alpaca}
+    container_name: xqqq-vt25-${VT_TAG:-alpaca}
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    env_file: ../.env
+    environment:
+      TZ: America/New_York
+      BROKER: ${VT_BROKER:-alpaca_paper}     # overrides .env, set by the wrapper script
+      # IBKR mode environment variables (loaded from .env)
+      IBKR_USERNAME: ${IBKR_USERNAME:-}
+      IBKR_PASSWORD: ${IBKR_PASSWORD:-}
+      IBKR_TRADING_MODE: ${IBKR_TRADING_MODE:-paper}
+      IBKR_2FA_DEVICE: ${IBKR_2FA_DEVICE:-Mobile Authenticator app}
+      IBKR_TOTP_SECRET: ${IBKR_TOTP_SECRET:-}
+    entrypoint: bash /entrypoint.sh
+    volumes:
+      - ./entrypoint-ibkr.sh:/entrypoint.sh:ro
+      - ../.env:/app/.env:ro
+      - ../runtime:/app/runtime
+      - ../live/config.yaml:/app/live/config.yaml:ro
+    # Use host network for IB Gateway (localhost:4001 inside container)
+    network_mode: "host"
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "5"}
