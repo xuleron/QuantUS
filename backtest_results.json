@@ -1,0 +1,562 @@
+[
+  {
+    "strategy_name": "MA_Crossover",
+    "total_return": 0.0113,
+    "annualized_return": 0.0135,
+    "sharpe_ratio": -0.2963,
+    "max_drawdown": -0.0212,
+    "volatility": 0.0218,
+    "total_trades": 113,
+    "final_value": 101131.95
+  },
+  {
+    "strategy_name": "RSI",
+    "total_return": 0.0337,
+    "annualized_return": 0.0404,
+    "sharpe_ratio": 1.4161,
+    "max_drawdown": -0.0064,
+    "volatility": 0.0144,
+    "total_trades": 43,
+    "final_value": 103372.37
+  },
+  {
+    "strategy_name": "MACD",
+    "total_return": 0.0553,
+    "annualized_return": 0.0664,
+    "sharpe_ratio": 2.1601,
+    "max_drawdown": -0.006,
+    "volatility": 0.0215,
+    "total_trades": 140,
+    "final_value": 105533.69
+  },
+  {
+    "strategy_name": "BollingerBand",
+    "total_return": 0.017,
+    "annualized_return": 0.0204,
+    "sharpe_ratio": 0.0418,
+    "max_drawdown": -0.0041,
+    "volatility": 0.0085,
+    "total_trades": 37,
+    "final_value": 101701.55
+  },
+  {
+    "strategy_name": "Momentum",
+    "total_return": 0.0234,
+    "annualized_return": 0.028,
+    "sharpe_ratio": 0.3662,
+    "max_drawdown": -0.0219,
+    "volatility": 0.0218,
+    "total_trades": 124,
+    "final_value": 102338.57
+  },
+  {
+    "strategy_name": "MA(3,20)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(3,30)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(3,50)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(3,100)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(5,20)",
+    "total_return": 0.0113,
+    "annualized_return": 0.0135,
+    "sharpe_ratio": -0.2963,
+    "max_drawdown": -0.0212,
+    "volatility": 0.0218,
+    "total_trades": 113,
+    "final_value": 101131.95
+  },
+  {
+    "strategy_name": "MA(5,30)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(5,50)",
+    "total_return": 0.0363,
+    "annualized_return": 0.0435,
+    "sharpe_ratio": 0.9388,
+    "max_drawdown": -0.0167,
+    "volatility": 0.025,
+    "total_trades": 59,
+    "final_value": 103625.58
+  },
+  {
+    "strategy_name": "MA(5,100)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(7,20)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(7,30)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(7,50)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(7,100)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(10,20)",
+    "total_return": 0.0272,
+    "annualized_return": 0.0325,
+    "sharpe_ratio": 0.5323,
+    "max_drawdown": -0.0196,
+    "volatility": 0.0236,
+    "total_trades": 109,
+    "final_value": 102717.71
+  },
+  {
+    "strategy_name": "MA(10,30)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "MA(10,50)",
+    "total_return": 0.0251,
+    "annualized_return": 0.03,
+    "sharpe_ratio": 0.4142,
+    "max_drawdown": -0.0162,
+    "volatility": 0.0242,
+    "total_trades": 51,
+    "final_value": 102507.36
+  },
+  {
+    "strategy_name": "MA(10,100)",
+    "total_return": 0.0,
+    "annualized_return": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 0.0,
+    "volatility": 0.0,
+    "total_trades": 0,
+    "final_value": 100000.0
+  },
+  {
+    "strategy_name": "RSI(20,65)",
+    "total_return": 0.0013,
+    "annualized_return": 0.0015,
+    "sharpe_ratio": -5.847,
+    "max_drawdown": -0.0027,
+    "volatility": 0.0032,
+    "total_trades": 16,
+    "final_value": 100129.61
+  },
+  {
+    "strategy_name": "RSI(20,70)",
+    "total_return": 0.006,
+    "annualized_return": 0.0072,
+    "sharpe_ratio": -2.6717,
+    "max_drawdown": -0.0022,
+    "volatility": 0.0048,
+    "total_trades": 16,
+    "final_value": 100598.9
+  },
+  {
+    "strategy_name": "RSI(20,75)",
+    "total_return": 0.0135,
+    "annualized_return": 0.0161,
+    "sharpe_ratio": -0.4429,
+    "max_drawdown": -0.0032,
+    "volatility": 0.0088,
+    "total_trades": 13,
+    "final_value": 101348.1
+  },
+  {
+    "strategy_name": "RSI(20,80)",
+    "total_return": 0.0161,
+    "annualized_return": 0.0193,
+    "sharpe_ratio": -0.0759,
+    "max_drawdown": -0.0032,
+    "volatility": 0.0093,
+    "total_trades": 12,
+    "final_value": 101612.94
+  },
+  {
+    "strategy_name": "RSI(25,65)",
+    "total_return": 0.0075,
+    "annualized_return": 0.009,
+    "sharpe_ratio": -2.065,
+    "max_drawdown": -0.0033,
+    "volatility": 0.0053,
+    "total_trades": 26,
+    "final_value": 100750.7
+  },
+  {
+    "strategy_name": "RSI(25,70)",
+    "total_return": 0.014,
+    "annualized_return": 0.0168,
+    "sharpe_ratio": -0.4837,
+    "max_drawdown": -0.0035,
+    "volatility": 0.0066,
+    "total_trades": 24,
+    "final_value": 101405.0
+  },
+  {
+    "strategy_name": "RSI(25,75)",
+    "total_return": 0.0154,
+    "annualized_return": 0.0184,
+    "sharpe_ratio": -0.2219,
+    "max_drawdown": -0.0035,
+    "volatility": 0.0073,
+    "total_trades": 19,
+    "final_value": 101535.82
+  },
+  {
+    "strategy_name": "RSI(25,80)",
+    "total_return": 0.038,
+    "annualized_return": 0.0455,
+    "sharpe_ratio": 2.0645,
+    "max_drawdown": -0.0037,
+    "volatility": 0.0123,
+    "total_trades": 16,
+    "final_value": 103795.18
+  },
+  {
+    "strategy_name": "RSI(30,65)",
+    "total_return": 0.0209,
+    "annualized_return": 0.025,
+    "sharpe_ratio": 0.4774,
+    "max_drawdown": -0.0054,
+    "volatility": 0.0106,
+    "total_trades": 52,
+    "final_value": 102093.2
+  },
+  {
+    "strategy_name": "RSI(30,70)",
+    "total_return": 0.0337,
+    "annualized_return": 0.0404,
+    "sharpe_ratio": 1.4161,
+    "max_drawdown": -0.0064,
+    "volatility": 0.0144,
+    "total_trades": 43,
+    "final_value": 103372.37
+  },
+  {
+    "strategy_name": "RSI(30,75)",
+    "total_return": 0.026,
+    "annualized_return": 0.0311,
+    "sharpe_ratio": 0.8404,
+    "max_drawdown": -0.0071,
+    "volatility": 0.0132,
+    "total_trades": 33,
+    "final_value": 102600.17
+  },
+  {
+    "strategy_name": "RSI(30,80)",
+    "total_return": 0.0204,
+    "annualized_return": 0.0244,
+    "sharpe_ratio": 0.2337,
+    "max_drawdown": -0.012,
+    "volatility": 0.019,
+    "total_trades": 21,
+    "final_value": 102042.82
+  },
+  {
+    "strategy_name": "RSI(35,65)",
+    "total_return": 0.0281,
+    "annualized_return": 0.0336,
+    "sharpe_ratio": 0.9275,
+    "max_drawdown": -0.0069,
+    "volatility": 0.0147,
+    "total_trades": 62,
+    "final_value": 102809.83
+  },
+  {
+    "strategy_name": "RSI(35,70)",
+    "total_return": 0.038,
+    "annualized_return": 0.0456,
+    "sharpe_ratio": 1.3526,
+    "max_drawdown": -0.0102,
+    "volatility": 0.0189,
+    "total_trades": 53,
+    "final_value": 103800.37
+  },
+  {
+    "strategy_name": "RSI(35,75)",
+    "total_return": 0.0457,
+    "annualized_return": 0.0548,
+    "sharpe_ratio": 1.6109,
+    "max_drawdown": -0.0102,
+    "volatility": 0.0216,
+    "total_trades": 41,
+    "final_value": 104567.02
+  },
+  {
+    "strategy_name": "RSI(35,80)",
+    "total_return": 0.0477,
+    "annualized_return": 0.0572,
+    "sharpe_ratio": 1.6856,
+    "max_drawdown": -0.0116,
+    "volatility": 0.0221,
+    "total_trades": 29,
+    "final_value": 104769.37
+  },
+  {
+    "strategy_name": "Momentum(5,0.01)",
+    "total_return": 0.0408,
+    "annualized_return": 0.049,
+    "sharpe_ratio": 1.3189,
+    "max_drawdown": -0.0097,
+    "volatility": 0.022,
+    "total_trades": 218,
+    "final_value": 104083.36
+  },
+  {
+    "strategy_name": "Momentum(5,0.02)",
+    "total_return": 0.0379,
+    "annualized_return": 0.0455,
+    "sharpe_ratio": 1.1547,
+    "max_drawdown": -0.0119,
+    "volatility": 0.022,
+    "total_trades": 158,
+    "final_value": 103792.52
+  },
+  {
+    "strategy_name": "Momentum(5,0.03)",
+    "total_return": 0.0494,
+    "annualized_return": 0.0592,
+    "sharpe_ratio": 1.7461,
+    "max_drawdown": -0.01,
+    "volatility": 0.0225,
+    "total_trades": 118,
+    "final_value": 104937.61
+  },
+  {
+    "strategy_name": "Momentum(5,0.05)",
+    "total_return": 0.0172,
+    "annualized_return": 0.0206,
+    "sharpe_ratio": 0.0252,
+    "max_drawdown": -0.0161,
+    "volatility": 0.023,
+    "total_trades": 62,
+    "final_value": 101720.29
+  },
+  {
+    "strategy_name": "Momentum(10,0.01)",
+    "total_return": 0.0401,
+    "annualized_return": 0.0481,
+    "sharpe_ratio": 1.2433,
+    "max_drawdown": -0.0191,
+    "volatility": 0.0226,
+    "total_trades": 141,
+    "final_value": 104013.1
+  },
+  {
+    "strategy_name": "Momentum(10,0.02)",
+    "total_return": 0.0234,
+    "annualized_return": 0.028,
+    "sharpe_ratio": 0.3662,
+    "max_drawdown": -0.0219,
+    "volatility": 0.0218,
+    "total_trades": 124,
+    "final_value": 102338.57
+  },
+  {
+    "strategy_name": "Momentum(10,0.03)",
+    "total_return": 0.027,
+    "annualized_return": 0.0324,
+    "sharpe_ratio": 0.569,
+    "max_drawdown": -0.0204,
+    "volatility": 0.0218,
+    "total_trades": 89,
+    "final_value": 102704.21
+  },
+  {
+    "strategy_name": "Momentum(10,0.05)",
+    "total_return": 0.0213,
+    "annualized_return": 0.0255,
+    "sharpe_ratio": 0.2607,
+    "max_drawdown": -0.0173,
+    "volatility": 0.021,
+    "total_trades": 60,
+    "final_value": 102128.74
+  },
+  {
+    "strategy_name": "Momentum(15,0.01)",
+    "total_return": 0.0045,
+    "annualized_return": 0.0054,
+    "sharpe_ratio": -0.6667,
+    "max_drawdown": -0.0243,
+    "volatility": 0.0219,
+    "total_trades": 121,
+    "final_value": 100450.59
+  },
+  {
+    "strategy_name": "Momentum(15,0.02)",
+    "total_return": 0.0213,
+    "annualized_return": 0.0255,
+    "sharpe_ratio": 0.2495,
+    "max_drawdown": -0.0198,
+    "volatility": 0.0222,
+    "total_trades": 92,
+    "final_value": 102134.36
+  },
+  {
+    "strategy_name": "Momentum(15,0.03)",
+    "total_return": 0.0221,
+    "annualized_return": 0.0264,
+    "sharpe_ratio": 0.3023,
+    "max_drawdown": -0.017,
+    "volatility": 0.0212,
+    "total_trades": 80,
+    "final_value": 102206.87
+  },
+  {
+    "strategy_name": "Momentum(15,0.05)",
+    "total_return": 0.047,
+    "annualized_return": 0.0564,
+    "sharpe_ratio": 1.4564,
+    "max_drawdown": -0.0162,
+    "volatility": 0.025,
+    "total_trades": 49,
+    "final_value": 104699.24
+  },
+  {
+    "strategy_name": "Momentum(20,0.01)",
+    "total_return": 0.0278,
+    "annualized_return": 0.0333,
+    "sharpe_ratio": 0.5832,
+    "max_drawdown": -0.0193,
+    "volatility": 0.0228,
+    "total_trades": 98,
+    "final_value": 102782.71
+  },
+  {
+    "strategy_name": "Momentum(20,0.02)",
+    "total_return": 0.0489,
+    "annualized_return": 0.0587,
+    "sharpe_ratio": 1.5588,
+    "max_drawdown": -0.0128,
+    "volatility": 0.0248,
+    "total_trades": 65,
+    "final_value": 104891.57
+  },
+  {
+    "strategy_name": "Momentum(20,0.03)",
+    "total_return": 0.0414,
+    "annualized_return": 0.0497,
+    "sharpe_ratio": 1.2022,
+    "max_drawdown": -0.0143,
+    "volatility": 0.0247,
+    "total_trades": 57,
+    "final_value": 104141.24
+  },
+  {
+    "strategy_name": "Momentum(20,0.05)",
+    "total_return": 0.0409,
+    "annualized_return": 0.049,
+    "sharpe_ratio": 1.1066,
+    "max_drawdown": -0.0203,
+    "volatility": 0.0262,
+    "total_trades": 49,
+    "final_value": 104089.56
+  },
+  {
+    "strategy_name": "TrendMomentum",
+    "total_return": 0.0453,
+    "annualized_return": 0.0543,
+    "sharpe_ratio": 1.3366,
+    "max_drawdown": -0.0138,
+    "volatility": 0.0257,
+    "total_trades": 45,
+    "final_value": 104527.95
+  },
+  {
+    "strategy_name": "MeanReversion",
+    "total_return": 0.0271,
+    "annualized_return": 0.0324,
+    "sharpe_ratio": 1.0829,
+    "max_drawdown": -0.0036,
+    "volatility": 0.0115,
+    "total_trades": 41,
+    "final_value": 102708.24
+  },
+  {
+    "strategy_name": "MACDConfirmed",
+    "total_return": 0.0569,
+    "annualized_return": 0.0684,
+    "sharpe_ratio": 2.3046,
+    "max_drawdown": -0.0073,
+    "volatility": 0.021,
+    "total_trades": 138,
+    "final_value": 105694.68
+  }
+]

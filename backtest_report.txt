@@ -1,0 +1,159 @@
+====================================================================================================
+COMPREHENSIVE BACKTEST ANALYSIS REPORT
+Generated: 2026-10-04 03:16:33
+====================================================================================================
+
+-----------------------------------SECTION 1: SUMMARY STATISTICS------------------------------------
+
+Total Strategies Tested: 56
+
+Average Performance Metrics:
+  Mean Sharpe Ratio:       0.38
+  Mean Total Return:       2.24%
+  Mean Annualized Return:  2.68%
+  Mean Max Drawdown:       -0.93%
+  Mean Volatility:         1.43%
+
+-------------------------------------SECTION 2: BEST PERFORMERS-------------------------------------
+
+Top 5 by Sharpe Ratio:
+
+1. MACDConfirmed
+   Sharpe Ratio:       2.30
+   Total Return:       5.69%
+   Annualized Return:  6.84%
+   Max Drawdown:       -0.73%
+
+2. MACD
+   Sharpe Ratio:       2.16
+   Total Return:       5.53%
+   Annualized Return:  6.64%
+   Max Drawdown:       -0.60%
+
+3. RSI(25,80)
+   Sharpe Ratio:       2.06
+   Total Return:       3.80%
+   Annualized Return:  4.55%
+   Max Drawdown:       -0.37%
+
+4. Momentum(5,0.03)
+   Sharpe Ratio:       1.75
+   Total Return:       4.94%
+   Annualized Return:  5.92%
+   Max Drawdown:       -1.00%
+
+5. RSI(35,80)
+   Sharpe Ratio:       1.69
+   Total Return:       4.77%
+   Annualized Return:  5.72%
+   Max Drawdown:       -1.16%
+
+--------------------------------------SECTION 3: RISK ANALYSIS--------------------------------------
+
+Lowest Max Drawdown (Best Risk Control):
+
+1. MA(3,20)
+   Max Drawdown:       0.00%
+   Volatility:         0.00%
+   Total Return:       0.00%
+
+2. MA(3,30)
+   Max Drawdown:       0.00%
+   Volatility:         0.00%
+   Total Return:       0.00%
+
+3. MA(3,50)
+   Max Drawdown:       0.00%
+   Volatility:         0.00%
+   Total Return:       0.00%
+
+4. MA(3,100)
+   Max Drawdown:       0.00%
+   Volatility:         0.00%
+   Total Return:       0.00%
+
+5. MA(5,30)
+   Max Drawdown:       0.00%
+   Volatility:         0.00%
+   Total Return:       0.00%
+
+---------------------------------SECTION 4: RETURN VS RISK ANALYSIS---------------------------------
+
+Best Return/Risk Ratio (Annualized Return / Abs Max Drawdown):
+
+1. RSI(25,80)
+   Return/Risk Ratio:  11.97
+   Return:             4.55%
+   Max Drawdown:       -0.37%
+
+2. MACD
+   Return/Risk Ratio:  10.89
+   Return:             6.64%
+   Max Drawdown:       -0.60%
+
+3. MACDConfirmed
+   Return/Risk Ratio:  9.24
+   Return:             6.84%
+   Max Drawdown:       -0.73%
+
+4. MeanReversion
+   Return/Risk Ratio:  8.76
+   Return:             3.24%
+   Max Drawdown:       -0.36%
+
+5. RSI
+   Return/Risk Ratio:  6.22
+   Return:             4.04%
+   Max Drawdown:       -0.64%
+
+--------------------------------SECTION 5: TRADING ACTIVITY ANALYSIS--------------------------------
+
+Most Active Strategies (by number of trades):
+
+1. Momentum(5,0.01): 218 trades
+   Sharpe Ratio: 1.32
+
+2. Momentum(5,0.02): 158 trades
+   Sharpe Ratio: 1.15
+
+3. Momentum(10,0.01): 141 trades
+   Sharpe Ratio: 1.24
+
+4. MACD: 140 trades
+   Sharpe Ratio: 2.16
+
+5. MACDConfirmed: 138 trades
+   Sharpe Ratio: 2.30
+
+-------------------------------------SECTION 6: RECOMMENDATIONS-------------------------------------
+
+Best Overall Strategy (by Sharpe Ratio):
+  Strategy:          MACDConfirmed
+  Sharpe Ratio:      2.30
+  Total Return:      5.69%
+  Max Drawdown:      -0.73%
+
+Recommendation:
+  MACDConfirmed shows the best risk-adjusted returns.
+  Consider using this as the primary strategy for live trading.
+
+----------------------------------SECTION 7: IMPLEMENTATION NOTES-----------------------------------
+
+- All backtests used:
+  * Initial Capital: $100,000
+  * Commission: 0.1% per trade
+  * Slippage: 0.1%
+  * Position sizing: Conservative (5-6% per position max)
+
+- Results are based on synthetic market data (representative but not real)
+  * Real market conditions may differ significantly
+  * Past performance does not guarantee future results
+
+- Consider:
+  * Running live paper trading first
+  * Gradually scaling into live trading
+  * Monitoring strategy performance regularly
+  * Adjusting parameters as market conditions change
+
+
+====================================================================================================
